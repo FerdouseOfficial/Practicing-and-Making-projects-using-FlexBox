@@ -14,6 +14,8 @@ nav h2{
 }
 nav ul li{
     list-style-type: none;
+    padding: 10px;
+    border-radius: 20px;
 }
 nav a {
     text-decoration: none;
@@ -33,4 +35,38 @@ nav .container ul{
     display: flex;
     /* justify-content: space-around; */
     gap: 1rem;
+}
+aside ul li{
+    list-style-type: none;
+}
+aside a{
+    text-decoration: none;
+    color: black;
+}
+aside .container {
+    /* display: flex;
+    flex-direction: column;
+    gap: 2px; */
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: aquamarine;
+    display: inline-block;
+}
+aside .container li{
+    margin-bottom: 1rem;
+    border: 1px solid magenta;
+    padding: 10px;
+    border-radius: 20px;
+    width: 8rem;
+    text-align: center;
+}
+li:hover{
+    background-color: cadetblue;
+}
+
+.container{
+    max-width: 1160px;
+    text-align: center;
+    display: flex;
+    /* flex-direction: column; */
 }
